@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css.css">
+    <script src="index.js.js" defer></script>
+    <title>Choose Favourite Player</title>
+</head>
+<body>
+    <form>
+        <label for="Sport-search">Search for a Sport:</label>
+        <input type="text" 
+               id="Sport-search" 
+               name="Sport" 
+               list="Sport-options" 
+               placeholder="Examples: Football, Basketball, Tennis">
+        <datalist id="Sport-options">
+            <option value="Football">
+            <option value="Basketball">
+            <option value="Tennis">
+        </datalist>
+        <button type="button" id="Sport-Submit" onclick="checkSport()">Submit</button>
+    </form>
+
+    <input type="text" 
+           id="inputPlayer" 
+           placeholder="Examples: Messi, Cristiano, Neymar" 
+           style="display:none;">
+    <button type="button" id="showMessageButton" style="display:none;" onclick="displayPlayerMessage()">Show Player Info</button>
+    <p id="message"></p>
+</body>
+</html>

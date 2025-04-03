@@ -1,0 +1,26 @@
+body {
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.LQRfrsfcRy0ZstbOajthogHaE8&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form, input, p {
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#inputPlayer {
+    display: none;
+}
